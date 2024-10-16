@@ -22,9 +22,9 @@ public class HiberNateMain {
 		Session session = factory.openSession();   // create a new session with db 
 
 		HibernateDemo demo = new HibernateDemo();
-		demo.setId(2);
-		demo.setFirstname("John");
-		demo.setLastName("Wick");
+		demo.setId(3);
+		demo.setFirstname("Rahul");
+		demo.setLastName("Gupta");
 
 		session.beginTransaction(); // for SQL Query show 
 		session.save(demo);

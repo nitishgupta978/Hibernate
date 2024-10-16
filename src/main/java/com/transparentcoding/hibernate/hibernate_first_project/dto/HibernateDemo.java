@@ -43,4 +43,10 @@ public class HibernateDemo { // same table name as db tableName and column name 
 		LastName = lastName;
 	}
 
+	@Override
+	public String toString() {
+		return "HibernateDemo [id=" + id + ", Firstname=" + Firstname + ", LastName=" + LastName + "]";
+	}
+
+	
 }
