@@ -6,7 +6,7 @@ import org.hibernate.cfg.Configuration;
 
 import com.transparentcoding.hibernate.hibernate_first_project.dto.HibernateDemo;
 
-public class UpdateHibernateData {
+public class UpdateApp {
 	public static void main(String[] args) {
 
 		Configuration configuration = new Configuration();
